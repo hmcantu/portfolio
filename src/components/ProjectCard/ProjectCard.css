@@ -7,6 +7,14 @@
   flex-direction: column;
   list-style: none;
   box-shadow: var(--shadow);
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 20px -5px rgba(0, 0, 0, 0.15);
 }
 
 .project-card__image {

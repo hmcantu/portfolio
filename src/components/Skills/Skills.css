@@ -57,3 +57,24 @@
   padding: 8px 16px;
   border-radius: 8px;
 }
+
+@media (max-width: 1024px) {
+  .skills__groups {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .skills {
+    padding: 60px 16px;
+  }
+
+  .skills__title {
+    text-align: center;
+  }
+
+  .skills__groups {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+}
