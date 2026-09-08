@@ -11,8 +11,8 @@ export default function App() {
       <Header />
       <main id="home">
         <Hero />
-        <Skills />
         <Projects />
+        <Skills />
       </main>
       <Footer />
     </>
