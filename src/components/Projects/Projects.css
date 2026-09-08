@@ -1,0 +1,32 @@
+.projects {
+  padding: 80px 24px;
+  background-color: var(--color-bg-primary);
+  box-sizing: border-box;
+}
+
+.projects__container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.projects__title {
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--color-text-primary);
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.projects__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 32px;
+  padding: 0;
+  margin: 0;
+}
+
+.projects__actions {
+  display: flex;
+  justify-content: center;
+  margin-top: 48px;
+}
