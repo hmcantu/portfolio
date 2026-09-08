@@ -1,4 +1,11 @@
 :root {
+  --color-text-primary: #121212;
+  --color-text-secondary: #808080;
+  --color-bg-primary: #ffffff;
+  --color-bg-secondary: #c5e0fc;
+  --color-blue: #3f96f3;
+  --color-hover-secondary: #c5e0fc;
+
   --text: #6b6375;
   --text-h: #08060d;
   --bg: #fff;
@@ -19,7 +26,7 @@
   letter-spacing: 0.18px;
   color-scheme: light dark;
   color: var(--text);
-  background: var(--bg);
+  background: var(--color-bg-primary);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -64,6 +71,7 @@
 
 body {
   margin: 0;
+  background-color: var(--color-bg-primary);
 }
 
 h1,
