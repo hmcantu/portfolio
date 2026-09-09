@@ -1,0 +1,30 @@
+.footer {
+  padding: 80px 24px;
+  background-color: var(--color-bg-primary);
+  border-top: 1px solid var(--border);
+  box-sizing: border-box;
+}
+
+.footer__container {
+  max-width: 680px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer__title {
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--color-text-primary);
+  margin: 0;
+}
+
+.footer__invite {
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--color-text-secondary);
+  margin: 0 0 12px;
+}
