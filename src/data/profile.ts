@@ -10,5 +10,5 @@ export const profile: Profile = {
   linkedinUrl: "#",
   locationUrl: "https://maps.google.com/?q=Texas",
   locationText: "Texas, USA",
-  resume: "/resume.txt",
+  resume: "/resume.pdf",
 };
